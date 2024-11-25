@@ -1,13 +1,13 @@
 <h1 align="center">This is Rupam Biswas</h1>
 <h3 align="center">A human being who knows to code</h3>
 
-- 🔭 I’m currently working on **full-project at HomeTriangle Online Services Pvt. Ltd.**
+- 🔭 I’m currently working at **HomeTriangle Online Services Pvt. Ltd.**
 
-- 🌱 I’m currently learning **Core Python**
+- 🌱 I’m currently learning **Advanced DSA with Python and MERN Stack**
 
 - 👯 I’m looking to collaborate on **opensource projects**
 
-- 💬 Ask me about **Python**
+- 💬 Ask me about **Python and React**
 
 - ⚡ Fun fact **When I'm not coding, you can find me debugging my life choices with the same intensity as I debug my code—one breakpoint at a time!**
 
