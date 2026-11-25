@@ -1,40 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Rupam Biswas — Full-Stack Developer. I debug prod so you can sleep through the night.">
-  <defs>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#14171c" stroke-width="1"/>
-    </pattern>
-    <radialGradient id="glow" cx="85%" cy="10%" r="60%">
-      <stop offset="0" stop-color="#c8f53c" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#c8f53c" stop-opacity="0"/>
-    </radialGradient>
-    <style>
-      .mono{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace}
-      .sans{font-family:'Bricolage Grotesque','Segoe UI',Helvetica,Arial,sans-serif}
-      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-      @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-      .cursor{animation:blink 1.1s steps(1) infinite}
-      .dot{animation:pulse 2s ease-in-out infinite}
-    </style>
-  </defs>
-
-  <rect width="900" height="300" rx="16" fill="#08090b"/>
-  <rect width="900" height="300" rx="16" fill="url(#grid)"/>
-  <rect width="900" height="300" rx="16" fill="url(#glow)"/>
-  <rect x="0.5" y="0.5" width="899" height="299" rx="15.5" fill="none" stroke="#1d2128"/>
-
-  <!-- status pill -->
-  <g transform="translate(48 44)">
-    <rect width="318" height="28" rx="14" fill="#0f1115" stroke="#1d2128"/>
-    <circle class="dot" cx="16" cy="14" r="4" fill="#c8f53c"/>
-    <text x="28" y="18.5" class="mono" font-size="12" fill="#8a909c">Online · Bangalore, India · open to roles</text>
-  </g>
-
-  <!-- headline -->
-  <text x="48" y="134" class="sans" font-size="44" font-weight="700" fill="#e9ebef">I debug <tspan fill="#c8f53c">prod</tspan> so you can sleep</text>
-  <text x="48" y="182" class="sans" font-size="44" font-weight="700" fill="#e9ebef">through the night.</text>
-
-  <!-- prompt line -->
-  <text x="48" y="238" class="mono" font-size="15" fill="#8a909c"><tspan fill="#c8f53c">➜</tspan> <tspan fill="#67e3ff">~</tspan> whoami  <tspan fill="#e9ebef">Rupam Biswas · Full-Stack Developer</tspan> <tspan fill="#8a909c">// Next.js · Spring Boot · AWS</tspan> <tspan class="cursor" fill="#c8f53c">▌</tspan></text>
-
-  <text x="48" y="270" class="mono" font-size="12" fill="#4a505b">rupam@prod:~$ uptime  →  2+ yrs in production · 400+ DSA · very few rollbacks</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="RUPAM spelled out in a GitHub contribution graph">
+<style>
+.t{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace}
+@keyframes lit{0%{fill:#161b22}60%{fill:#56d364}100%{fill:#39d353}}
+.on{fill:#161b22;animation:lit .5s ease-out forwards}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cur{animation:blink 1s steps(1) infinite}
+</style>
+<rect width="900" height="250" rx="12" fill="#0d1117"/>
+<rect x=".5" y=".5" width="899" height="249" rx="11.5" fill="none" stroke="#30363d"/>
+<text x="54" y="46" class="t" font-size="15" fill="#e6edf3"><tspan font-weight="600">2,147,483,647 contributions</tspan><tspan dx="6" fill="#7d8590">in prod · Integer.MAX_VALUE, give or take</tspan></text>
+<text x="46" y="95" class="t" font-size="10" fill="#7d8590" text-anchor="end">Mon</text>
+<text x="46" y="125" class="t" font-size="10" fill="#7d8590" text-anchor="end">Wed</text>
+<text x="46" y="155" class="t" font-size="10" fill="#7d8590" text-anchor="end">Fri</text>
+<text x="54" y="62" class="t" font-size="10" fill="#7d8590">Dec</text>
+<text x="114" y="62" class="t" font-size="10" fill="#7d8590">Jan</text>
+<text x="174" y="62" class="t" font-size="10" fill="#7d8590">Feb</text>
+<text x="249" y="62" class="t" font-size="10" fill="#7d8590">Mar</text>
+<text x="309" y="62" class="t" font-size="10" fill="#7d8590">Apr</text>
+<text x="384" y="62" class="t" font-size="10" fill="#7d8590">May</text>
+<text x="444" y="62" class="t" font-size="10" fill="#7d8590">Jun</text>
+<text x="504" y="62" class="t" font-size="10" fill="#7d8590">Jul</text>
+<text x="579" y="62" class="t" font-size="10" fill="#7d8590">Aug</text>
+<text x="639" y="62" class="t" font-size="10" fill="#7d8590">Sep</text>
+<text x="714" y="62" class="t" font-size="10" fill="#7d8590">Oct</text>
+<text x="774" y="62" class="t" font-size="10" fill="#7d8590">Nov</text>
+<defs><rect id="c" width="12" height="12" rx="2.5"/><pattern id="g" x="54" y="70" width="15" height="15" patternUnits="userSpaceOnUse"><use href="#c" fill="#161b22"/></pattern></defs>
+<rect x="54" y="70" width="795" height="105" fill="url(#g)"/>
+<g fill="#0e4429"><use href="#c" x="69" y="160"/><use href="#c" x="84" y="115"/><use href="#c" x="84" y="160"/><use href="#c" x="99" y="85"/><use href="#c" x="99" y="160"/><use href="#c" x="144" y="145"/><use href="#c" x="174" y="130"/><use href="#c" x="189" y="115"/><use href="#c" x="189" y="130"/><use href="#c" x="219" y="160"/><use href="#c" x="279" y="70"/><use href="#c" x="279" y="130"/><use href="#c" x="279" y="145"/><use href="#c" x="279" y="160"/><use href="#c" x="294" y="115"/><use href="#c" x="294" y="130"/><use href="#c" x="339" y="100"/><use href="#c" x="354" y="100"/><use href="#c" x="354" y="130"/><use href="#c" x="429" y="85"/><use href="#c" x="444" y="130"/><use href="#c" x="474" y="70"/><use href="#c" x="474" y="145"/><use href="#c" x="489" y="130"/><use href="#c" x="489" y="145"/><use href="#c" x="534" y="85"/><use href="#c" x="534" y="130"/><use href="#c" x="534" y="145"/><use href="#c" x="534" y="160"/><use href="#c" x="564" y="160"/><use href="#c" x="594" y="70"/><use href="#c" x="594" y="100"/><use href="#c" x="609" y="100"/><use href="#c" x="609" y="115"/><use href="#c" x="639" y="115"/><use href="#c" x="654" y="145"/><use href="#c" x="654" y="160"/><use href="#c" x="669" y="115"/><use href="#c" x="699" y="85"/><use href="#c" x="699" y="100"/><use href="#c" x="699" y="130"/><use href="#c" x="714" y="130"/><use href="#c" x="729" y="70"/><use href="#c" x="729" y="100"/><use href="#c" x="729" y="115"/><use href="#c" x="744" y="145"/><use href="#c" x="759" y="100"/><use href="#c" x="759" y="130"/><use href="#c" x="819" y="85"/><use href="#c" x="834" y="115"/><use href="#c" x="834" y="145"/><use href="#c" x="834" y="160"/></g>
+<g fill="#006d32"><use href="#c" x="159" y="85"/><use href="#c" x="219" y="145"/><use href="#c" x="444" y="145"/><use href="#c" x="534" y="100"/><use href="#c" x="594" y="85"/><use href="#c" x="699" y="145"/></g>
+<g class="on" style="animation-delay:0.30s"><use href="#c" x="204" y="70"/><use href="#c" x="204" y="85"/><use href="#c" x="204" y="100"/><use href="#c" x="204" y="115"/><use href="#c" x="204" y="130"/><use href="#c" x="204" y="145"/><use href="#c" x="204" y="160"/></g>
+<g class="on" style="animation-delay:0.34s"><use href="#c" x="219" y="70"/><use href="#c" x="219" y="115"/></g>
+<g class="on" style="animation-delay:0.39s"><use href="#c" x="234" y="70"/><use href="#c" x="234" y="115"/><use href="#c" x="234" y="130"/></g>
+<g class="on" style="animation-delay:0.43s"><use href="#c" x="249" y="70"/><use href="#c" x="249" y="115"/><use href="#c" x="249" y="145"/></g>
+<g class="on" style="animation-delay:0.48s"><use href="#c" x="264" y="85"/><use href="#c" x="264" y="100"/><use href="#c" x="264" y="160"/></g>
+<g class="on" style="animation-delay:0.61s"><use href="#c" x="309" y="70"/><use href="#c" x="309" y="85"/><use href="#c" x="309" y="100"/><use href="#c" x="309" y="115"/><use href="#c" x="309" y="130"/><use href="#c" x="309" y="145"/></g>
+<g class="on" style="animation-delay:0.66s"><use href="#c" x="324" y="160"/></g>
+<g class="on" style="animation-delay:0.70s"><use href="#c" x="339" y="160"/></g>
+<g class="on" style="animation-delay:0.75s"><use href="#c" x="354" y="160"/></g>
+<g class="on" style="animation-delay:0.79s"><use href="#c" x="369" y="70"/><use href="#c" x="369" y="85"/><use href="#c" x="369" y="100"/><use href="#c" x="369" y="115"/><use href="#c" x="369" y="130"/><use href="#c" x="369" y="145"/></g>
+<g class="on" style="animation-delay:0.93s"><use href="#c" x="414" y="70"/><use href="#c" x="414" y="85"/><use href="#c" x="414" y="100"/><use href="#c" x="414" y="115"/><use href="#c" x="414" y="130"/><use href="#c" x="414" y="145"/><use href="#c" x="414" y="160"/></g>
+<g class="on" style="animation-delay:0.97s"><use href="#c" x="429" y="70"/><use href="#c" x="429" y="115"/></g>
+<g class="on" style="animation-delay:1.02s"><use href="#c" x="444" y="70"/><use href="#c" x="444" y="115"/></g>
+<g class="on" style="animation-delay:1.06s"><use href="#c" x="459" y="70"/><use href="#c" x="459" y="115"/></g>
+<g class="on" style="animation-delay:1.11s"><use href="#c" x="474" y="85"/><use href="#c" x="474" y="100"/></g>
+<g class="on" style="animation-delay:1.24s"><use href="#c" x="519" y="85"/><use href="#c" x="519" y="100"/><use href="#c" x="519" y="115"/><use href="#c" x="519" y="130"/><use href="#c" x="519" y="145"/><use href="#c" x="519" y="160"/></g>
+<g class="on" style="animation-delay:1.29s"><use href="#c" x="534" y="70"/><use href="#c" x="534" y="115"/></g>
+<g class="on" style="animation-delay:1.33s"><use href="#c" x="549" y="70"/><use href="#c" x="549" y="115"/></g>
+<g class="on" style="animation-delay:1.38s"><use href="#c" x="564" y="70"/><use href="#c" x="564" y="115"/></g>
+<g class="on" style="animation-delay:1.43s"><use href="#c" x="579" y="85"/><use href="#c" x="579" y="100"/><use href="#c" x="579" y="115"/><use href="#c" x="579" y="130"/><use href="#c" x="579" y="145"/><use href="#c" x="579" y="160"/></g>
+<g class="on" style="animation-delay:1.56s"><use href="#c" x="624" y="70"/><use href="#c" x="624" y="85"/><use href="#c" x="624" y="100"/><use href="#c" x="624" y="115"/><use href="#c" x="624" y="130"/><use href="#c" x="624" y="145"/><use href="#c" x="624" y="160"/></g>
+<g class="on" style="animation-delay:1.60s"><use href="#c" x="639" y="85"/></g>
+<g class="on" style="animation-delay:1.65s"><use href="#c" x="654" y="100"/><use href="#c" x="654" y="115"/></g>
+<g class="on" style="animation-delay:1.70s"><use href="#c" x="669" y="85"/></g>
+<g class="on" style="animation-delay:1.74s"><use href="#c" x="684" y="70"/><use href="#c" x="684" y="85"/><use href="#c" x="684" y="100"/><use href="#c" x="684" y="115"/><use href="#c" x="684" y="130"/><use href="#c" x="684" y="145"/><use href="#c" x="684" y="160"/></g>
+<text x="733" y="198" class="t" font-size="10" fill="#7d8590" text-anchor="end">Less</text>
+<rect x="741" y="189" width="10" height="10" rx="2" fill="#161b22"/>
+<rect x="756" y="189" width="10" height="10" rx="2" fill="#0e4429"/>
+<rect x="771" y="189" width="10" height="10" rx="2" fill="#006d32"/>
+<rect x="786" y="189" width="10" height="10" rx="2" fill="#26a641"/>
+<rect x="801" y="189" width="10" height="10" rx="2" fill="#39d353"/>
+<text x="846" y="198" class="t" font-size="10" fill="#7d8590" text-anchor="end">More</text>
+<text x="54" y="198" class="m" font-size="11.5" fill="#7d8590"><tspan fill="#3fb950">$</tspan> git commit -m <tspan fill="#a5d6ff">"hello, world. I'm Rupam."</tspan><tspan class="cur" fill="#e6edf3"> ▌</tspan></text>
 </svg>
